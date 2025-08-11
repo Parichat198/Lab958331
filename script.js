@@ -12,9 +12,9 @@ const handleFormSubmit = (event) => {
     event.preventDefault();
 
     if(mobileCheck()){
-      window.location.href = "PEEM.gif";
+      window.location.href = "https://web.facebook.com/?locale=th_TH&_rdc=1&_rdr#";
     }else{
-      window.open("PEEM.gif", '_blank').focus();
+      window.open("https://web.facebook.com/?locale=th_TH&_rdc=1&_rdr#", '_blank').focus();
     }
     alert('Redirecting');
 };
